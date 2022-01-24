@@ -1,0 +1,451 @@
+:root {
+    --main-color: #190566;
+}
+
+.home-section-demo {
+    position: relative;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/banner/banner-img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* .home-section-demo::before {
+    content: "";
+    padding: 50px 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( 90deg, rgba(3, 24, 136, 0.846376) 100%, rgba(0, 0, 0, 0) 100%);
+    z-index: 10;
+} */
+
+.item .gif {
+    width: 280px;
+    margin-top: 23%;
+    margin-left: 55%;
+}
+
+
+/* .item .gif::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(197, 47, 47, 0.2), rgba(251, 77, 77, 0.2));
+    z-index: 40;
+} */
+
+.banner-content {
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    width: 50%;
+    z-index: 20;
+}
+
+.banner-content h1 {
+    font-size: 60px !important;
+    line-height: 1.7;
+    font-weight: 600;
+}
+
+@media (max-width:600px) {
+    .banner-content {
+        width: 90%;
+        padding: 30px 10px 30px 30px;
+        margin: auto;
+    }
+    .home-section-demo {
+        height: 380px;
+    }
+    .banner-content span {
+        font-size: 35px !important;
+        line-height: 55px;
+        font-weight: 550;
+        height: 200px;
+    }
+    .slider .gif {
+        visibility: hidden;
+    }
+    /* .carousel-item {
+        height: 220px;
+    } */
+}
+
+@media (min-width:600px) and (max-width:992px) {
+    .banner-content {
+        top: 150px;
+        width: 50%;
+        right: 40px;
+    }
+    .slider .gif {
+        visibility: hidden;
+    }
+}
+
+
+/**** Pestwecover ***/
+
+.pestwecover .row .col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    margin: 8px;
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 270px;
+    height: 220px;
+    border-radius: 10px;
+    perspective: 1000px;
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flip-box-front {
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+}
+
+.flip-box-front .box-img {
+    width: 250px;
+}
+
+@media (max-width:576px) {
+    .flip-box-front .box-img {
+        width: 100% !important;
+    }
+}
+
+.flip-box-back {
+    background-color: #ffffff;
+    color: #000;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    border: 1px solid #777;
+    padding: 16px;
+    height: 260px;
+}
+
+
+/**** Why Us ***/
+
+.content {
+    border: 1px solid var(--main-color);
+    border-radius: 3px;
+    display: flex;
+}
+
+.content .title {
+    padding: 50px;
+    color: #fff;
+    background-color: var(--main-color);
+    position: relative;
+    text-align: center;
+}
+
+.title-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.content .para {
+    padding: 40px 20px 40px 40px;
+}
+
+.footer-area {
+    padding-top: 60px !important;
+}
+
+@media (max-width:992px) {
+    .content {
+        border: 1px solid var(--main-color);
+        border-radius: 3px;
+        flex-direction: column;
+    }
+    .content-height1 {
+        height: 405px;
+    }
+    .content-height2 {
+        height: 363px;
+    }
+    .responsive-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .responsive-block {
+        width: 320px;
+        margin-right: 40px !important;
+        padding-left: 25px;
+    }
+    .responsive-section .responsive-block .col-md-12 {
+        margin-left: 25px;
+    }
+    .content-rotate {
+        transform: rotate(180deg);
+    }
+    .content-rotate .para,
+    .content-rotate .title {
+        transform: rotate(180deg);
+    }
+    .content .para {
+        padding: 30px;
+        text-align: justify;
+    }
+}
+
+@media (max-width:768px) {
+    .responsive-block {
+        width: 100%;
+    }
+    .content-height1 {
+        height: auto;
+    }
+    .content-height2 {
+        height: auto;
+    }
+}
+
+
+/**** Circle Card ****/
+
+@media (min-width:1200px) {
+    .container-box,
+    .container-box2 {
+        width: 230px !important;
+    }
+    .circle-row {
+        padding-left: 100px !important;
+    }
+    .container-box .circle,
+    .container-box2 .circle {
+        margin: auto;
+    }
+}
+
+@media (max-width:480px) {
+    .container-box .circle,
+    .container-box2 .circle {
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .container-box,
+    .container-box2 {
+        width: 100% !important;
+    }
+}
+
+@media (min-width:480px) and (max-width:576px) {
+    .container-box,
+    .container-box2 {
+        width: 250px !important;
+    }
+}
+
+.container-box .circle,
+.container-box2 .circle {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: -1px 14px 12px -10px rgba(255, 255, 255, 0.3);
+}
+
+.container-box .inner,
+.container-box2 .inner {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+    color: #fff;
+    opacity: 0;
+    transition: 0.5s;
+    font-size: 18px;
+}
+
+.container-box .outer,
+.container-box2 .outer {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 110%;
+    height: 110%;
+    transition: 0.8s;
+}
+
+.container-box .outer img,
+.container-box2 .outer img {
+    position: absolute;
+    border-radius: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    transition: 0.8s;
+}
+
+.container-box .circle:hover .outer {
+    left: 102%;
+    transform: rotate(180deg);
+}
+
+.container-box .circle:hover .inner {
+    transform: scale(1);
+    background-color: var(--main-color);
+    opacity: 1;
+}
+
+.container-box2 .circle:hover .outer {
+    left: -102%;
+    transform: rotate(180deg);
+}
+
+.container-box2 .circle:hover .inner {
+    transform: scale(1);
+    background-color: var(--main-color);
+    opacity: 1;
+}
+
+
+/***** PestWeCover Section ****/
+
+.abstract {
+    position: relative;
+}
+
+.pest-manage-shapes {
+    z-index: -3;
+    color: #fff;
+    font-size: 30px;
+}
+
+.abstract .pest-manage-shapes i:nth-child(1) {
+    position: absolute;
+    top: 4%;
+    left: 25%;
+    animation: translate infinite 2s;
+    animation-delay: 0.4s;
+}
+
+.pest-manage-shapes i:nth-child(2) {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    animation: translate infinite 2s;
+    animation-delay: 0.4s;
+}
+
+.pest-manage-shapes i:nth-child(3) {
+    position: absolute;
+    bottom: 30%;
+    right: 30%;
+    animation: translate infinite 2s;
+    animation-delay: 0.4s;
+}
+
+.pest-manage-shapes img:nth-child(4) {
+    position: absolute;
+    right: 17%;
+    top: 6%;
+}
+
+.pest-manage-shapes img:nth-child(5) {
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    animation: translate infinite 2s;
+    animation-delay: 0.4s;
+}
+
+.pest-manage-shapes img:nth-child(6) {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+
+.pest-manage-shapes img:nth-child(7) {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    animation: translate infinite 2s;
+    animation-delay: 0.4s;
+}
+
+.pest-manage-shapes img:nth-child(8) {
+    position: absolute;
+    top: 42%;
+    right: 10%;
+}
+
+.pest-manage-shapes img:nth-child(9) {
+    position: absolute;
+    bottom: 8%;
+    right: 9%;
+    animation: translate infinite 2s;
+    animation-delay: 0.4s;
+}
+
+.pest-manage-shapes img:nth-child(10) {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+}
+
+@keyframes translate {
+    0% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translate(20px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
