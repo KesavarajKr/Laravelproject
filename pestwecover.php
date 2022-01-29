@@ -15,7 +15,7 @@ $pageid = "pestwecover"
                     <h2>Pest We Cover</h2>
                     <ul>
                         <li>
-                            <a href="index.html">Home</a>
+                            <a href="index.php">Home</a>
                         </li>
                         <li>
                             <i class="icofont-rounded-double-right"></i>
@@ -31,185 +31,209 @@ $pageid = "pestwecover"
 
 <!-- Service Section Start -->
 
-<section class="pestwecover">
-    <div class="container">
-        <div class="row my-5">
-            <div class="col-md-4 col-sm-6 my-5 ">
-                <div class="service">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <div class="box-img">
-                                    <img src="assets/img/pestwecover-imgs/img4.jpg" class="img-fluid" alt="">
+    <section class="pestwecover">
+        <div class="container-fluid">
+            <div class="row my-5">
+                <div class="col-md-4 col-sm-6 my-1 ">
+                    <div class="service">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <div class="box-img">
+                                        <img src="assets/img/pestwecover-imgs/img4.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="service-title mt-4">
+                                        <h5>Cockroaches</h5>
+                                    </div>
                                 </div>
-                                <div class="service-title mt-4">
-                                    <h5>Cockroaches</h5>
+                                <div class="flip-box-back ">
+                                    <p class="heading text-white text-left">Cockroaches</p>
+                                    
+                                    <p class="text-white text-left ">A cockroach can live for a week without its head.</p>
+                                    <p class="text-white text-left ">A cockroach can hold its breath for 40 mins</p>
+                                    
                                 </div>
-                            </div>
-                            <div class="flip-box-back text-center">
-                                <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
                             </div>
                         </div>
                     </div>
-                </div>
 
-            </div>
-            <div class="col-md-4 col-sm-6 my-5 ">
-                <div class="service">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <div class="box-img">
-                                    <img src="assets/img/pestwecover-imgs/img3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-4 col-sm-6 my-1 ">
+                    <div class="service">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <div class="box-img">
+                                        <img src="assets/img/pestwecover-imgs/img3.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="service-title mt-4 ">
+                                        <h5>Mosquitoes</h5>
+                                    </div>
                                 </div>
-                                <div class="service-title mt-4 ">
-                                    <h5>Mosquitoes</h5>
+                                <div class="flip-box-back ">
+                                <p class="heading text-white text-left">Mosquitoes</p>
+                                    
+                                    <p class="text-white text-left ">Mosquitoes detect CO2 75 feet away</p>
+                                    <p class="text-white text-left ">Mosquitoes don’t only bite humans</p>
                                 </div>
-                            </div>
-                            <div class="flip-box-back text-center">
-                                <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
                             </div>
                         </div>
                     </div>
-                </div>
 
-            </div>
-            <div class="col-md-4 col-sm-6 my-5 ">
-                <div class="service">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <div class="box-img">
-                                    <img src="assets/img/pestwecover-imgs/img8.jpg" alt="">
+                </div>
+                <div class="col-md-4 col-sm-6 my-1 ">
+                    <div class="service">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <div class="box-img">
+                                        <img src="assets/img/pestwecover-imgs/img8.jpg" alt="">
+                                    </div>
+                                    <div class="service-title mt-4 ">
+                                        <h5>Rodents</h5>
+                                    </div>
                                 </div>
-                                <div class="service-title mt-4 ">
-                                    <h5>Rodents</h5>
+                                <div class="flip-box-back ">
+                                <p class="heading text-white text-left">Rodents</p>
+                                    <p class="text-white text-left">Their teeth never stop growing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    <p class="text-white text-left">They can squeeze through openings as small as 13mm (1/2 inch)</p>
                                 </div>
-                            </div>
-                            <div class="flip-box-back text-center">
-                                <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
                             </div>
                         </div>
                     </div>
+
                 </div>
 
-            </div>
 
 
-
-            <div class="col-md-4 col-sm-6 my-5 ">
-                <div class="service">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <div class="box-img">
-                                    <img src="assets/img/pestwecover-imgs/img5.jpg" alt="">
+                <div class="col-md-4 col-sm-6 my-1 ">
+                    <div class="service">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <div class="box-img">
+                                        <img src="assets/img/pestwecover-imgs/img5.jpg" alt="">
+                                    </div>
+                                    <div class="service-title mt-4 ">
+                                        <h5>Flies</h5>
+                                    </div>
                                 </div>
-                                <div class="service-title mt-4 ">
-                                    <h5>Flies</h5>
+                                <div class="flip-box-back">
+                                <p class="heading text-white text-left">Flies</p>
+                                    
+                                    <p class="text-white text-left ">They can taste with their feet &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    <p class="text-white text-left ">They are active in Day.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                                 </div>
-                            </div>
-                            <div class="flip-box-back text-center">
-                                <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
                             </div>
                         </div>
                     </div>
-                </div>
 
-            </div>
-            <div class="col-md-4 col-sm-6 my-5 ">
-                <div class="service">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <div class="box-img">
-                                    <img src="assets/img/pestwecover-imgs/img2.jpg" alt="">
+                </div>
+                <div class="col-md-4 col-sm-6 my-1 ">
+                    <div class="service">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <div class="box-img">
+                                        <img src="assets/img/pestwecover-imgs/img2.jpg" alt="">
+                                    </div>
+                                    <div class="service-title mt-4 ">
+                                        <h5>Ants</h5>
+                                    </div>
                                 </div>
-                                <div class="service-title mt-4 ">
-                                    <h5>Ants</h5>
+                                <div class="flip-box-back ">
+                                <p class="heading text-white text-left">Ants</p>
+                                    
+                                    <p class="text-white text-left ">Ants don’t have lungs and ears &nbsp;&nbsp;</p>
+                                    <p class="text-white text-left ">Ants have 2 stomachs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                                 </div>
-                            </div>
-                            <div class="flip-box-back text-center">
-                                <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
                             </div>
                         </div>
                     </div>
-                </div>
 
-            </div>
-            <div class="col-md-4 col-sm-6 my-5 ">
-                <div class="service">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <div class="box-img">
-                                    <img src="assets/img/pestwecover-imgs/img1.jpg" alt="">
+                </div>
+                <div class="col-md-4 col-sm-6 my-1 ">
+                    <div class="service">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <div class="box-img">
+                                        <img src="assets/img/pestwecover-imgs/img1.jpg" alt="">
+                                    </div>
+                                    <div class="service-title mt-4 ">
+                                        <h5>Bed bugs</h5>
+                                    </div>
                                 </div>
-                                <div class="service-title mt-4 ">
-                                    <h5>Bed bugs</h5>
+                                <div class="flip-box-back">
+                                <p class="heading text-white text-left">Bed bugs</p>
+                                    
+                                    <p class="text-white text-left ">Bedbugs can endure extreme conditions</p>
+                                    <p class="text-white text-left ">Bedbugs are food snobs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                                 </div>
-                            </div>
-                            <div class="flip-box-back text-center">
-                                <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
                             </div>
                         </div>
                     </div>
+
                 </div>
 
-            </div>
 
 
-
-            <div class="col-md-4 col-sm-6 my-5 ">
-                <div class="service">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <div class="box-img">
-                                    <img src=" assets/img/pestwecover-imgs/img6.jpg" alt="">
+                <div class="col-md-4 col-sm-6 my-1 ">
+                    <div class="service">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <div class="box-img">
+                                        <img src=" assets/img/pestwecover-imgs/img6.jpg" alt="">
+                                    </div>
+                                    <div class="service-title mt-4 ">
+                                        <h5>Termites</h5>
+                                    </div>
                                 </div>
-                                <div class="service-title mt-4 ">
-                                    <h5>Termites</h5>
+                                <div class="flip-box-back ">
+                                <p class="heading text-white text-left">Termites</p>
+                                    
+                                    <p class="text-white text-left ">They never sleep &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                    <p class="text-white text-left ">Termites use vibrations to communicate with one another</p>
                                 </div>
-                            </div>
-                            <div class="flip-box-back text-center">
-                                <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
                             </div>
                         </div>
                     </div>
-                </div>
 
-            </div>
-            <div class="col-md-4 col-sm-6 my-5 ">
-                <div class="service">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <div class="box-img">
-                                    <img src="assets/img/pestwecover-imgs/img7.jpg" alt="">
+                </div>
+                <div class="col-md-4 col-sm-6 my-1 ">
+                    <div class="service">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <div class="box-img">
+                                        <img src="assets/img/pestwecover-imgs/img7.jpg" alt="">
+                                    </div>
+                                    <div class="service-title mt-4 ">
+                                        <h5>Crawling Insects</h5>
+                                    </div>
                                 </div>
-                                <div class="service-title mt-4 ">
-                                    <h5>Crawling Insects</h5>
+                                <div class="flip-box-back ">
+                                <p class="heading text-white text-left">Crawling Insects</p>
+                                    
+                                    <p class="text-white text-left ">Some species of lizard will go their entire lives without drinking water</p>
+                                    <p class="text-white text-left ">Centipedes never have 100 legs</p>
                                 </div>
-                            </div>
-                            <div class="flip-box-back text-center">
-                                <p>We provide unique gifting ideas & products that will have a long-lasting impact on customers.</p>
                             </div>
                         </div>
                     </div>
+
                 </div>
 
+
             </div>
-
-
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Service Section End -->
+    <!-- Service Section End -->
 
-<!-- Contact Section Start -->
-<!-- <div class="contact-section mt-5">
+    <!-- Contact Section Start -->
+    <!-- <div class="contact-section mt-5">
     <div class="container">
         <div class="contact-area">
             <div class="row align-items-center">
@@ -264,10 +288,11 @@ $pageid = "pestwecover"
         </div>
     </div>
 </div> -->
-<!-- Contact Section End -->
+    <!-- Contact Section End -->
 
-<?php
+    <?php
 
 require_once("footer.php");
 
 ?>
+    

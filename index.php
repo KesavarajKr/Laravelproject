@@ -69,12 +69,12 @@ $pageid = "home"
 
 
 </div>
-<section class="about-style-two about-style-three pt-100 pb-70 responsive">
+<section style="padding-top:50px" class="about-style-two about-style-three pb-70 responsive service-section main-service-area">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-lg-6 p-0">
                 <div class="about-img">
-                    <img src="https://smartdemowp.com/pestico/wp-content/uploads/image-1.jpg" class="img-fluid m-auto d-block" alt="about image">
+                    <img src="assets/img/abt1.png" class="img-fluid m-auto d-block" alt="about image">
                 </div>
             </div>
 
@@ -85,17 +85,31 @@ $pageid = "home"
 
                     </div>
 
-                    <p>Pestokil India is one of the leading Pest Control service provider in India. We provide comprehensive Pest Control solutions through experienced and trained operation team.</p>
-                    <p>Using the power of Technology, we have the most advanced ERP system to manage our daily operations so that there is no delay or lapse in our services.</p>
-                    <p>Industry Experts on the role to deliver Quality work and provide the client the required Solution by resolving the issue.</p>
+                    <p>Pestokil-India is a recognized Industry competitor in Bangalore providing high quality and reliable Pest Management Solutions to all types of B2B, FM Industries and Residential Complexes across India. </p>
+                    <p>Pestokil-India aims to set new standards for customer service with operations across India. The company also focuses on developing industry by leading service operations through the sharing of best practices, new innovations, digital technology.</p>
+                    <!-- <p>Industry Experts on the role to deliver Quality work and provide the client the required Solution by resolving the issue.</p> -->
 
                     <div class="theme-button">
-                        <a href="#" class="default-btn">Learn More</a>
+                        <a href="about.php" class="default-btn">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
+        
     </div>
+    <div class="service-shapes">
+            <img src="assets/img/service/shapes/1.png" alt="shape">
+            <img src="assets/img/service/shapes/2.png" alt="shape">
+            <img src="assets/img/service/shapes/3.png" alt="shape">
+            <img src="assets/img/service/shapes/4.png" alt="shape">
+            <img src="assets/img/service/shapes/5.png" alt="shape">
+            <img src="assets/img/service/shapes/6.png" alt="shape">
+            <img src="assets/img/service/shapes/7.png" alt="shape">
+            <img src="assets/img/service/shapes/8.png" alt="shape">
+            <img src="assets/img/service/shapes/9.png" alt="shape">
+            <img src="assets/img/service/shapes/10.png" alt="shape">
+            
+        </div>
 </section>
 <!-- Home Section End -->
 
@@ -103,7 +117,7 @@ $pageid = "home"
 
 <section class="py-5 abstract mb-5" style="background-color: rgb(25,5,102);">
     <div class="container text-center">
-        <h1 class="text-white">PEST MANAGED</h1>
+        <h1 class="text-white">We Managed Pest</h1>
         <div class=" row circle-row owlCarousel ">
             <div class="col-lg-3 col-sm-4 col-xs-6 my-4 container-box">
                 <div class="circle ">
@@ -111,7 +125,7 @@ $pageid = "home"
                         <span>Cockroaches</span>
                     </div>
                     <div class="outer">
-                        <img src="assets/img/service-imgs/NonFumiCock.jpg" alt="">
+                        <img src="assets/img/pestwecover-imgs/img4.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -121,7 +135,7 @@ $pageid = "home"
                         <span>Mosquitoes</span>
                     </div>
                     <div class="outer">
-                        <img src="assets/img/service-imgs/NonFumiMosq.jpg" alt="">
+                        <img src="assets/img/pestwecover-imgs/img3.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -131,7 +145,7 @@ $pageid = "home"
                         <span>Rodents</span>
                     </div>
                     <div class="outer">
-                        <img src="assets/img/service-imgs/NonFumiRod.jpg" alt="">
+                        <img src="assets/img/pestwecover-imgs/img8.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -141,7 +155,7 @@ $pageid = "home"
                         <span>Flies</span>
                     </div>
                     <div class="outer">
-                        <img src="assets/img/service-imgs/NonFumiFly.jpg" alt="">
+                        <img src="assets/img/pestwecover-imgs/img5.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -153,7 +167,7 @@ $pageid = "home"
                         <span>Ants</span>
                     </div>
                     <div class="outer">
-                        <img src="assets/img/service-imgs/NonFumiSpider.jpg" alt="">
+                        <img src="assets/img/pestwecover-imgs/img2.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -163,7 +177,7 @@ $pageid = "home"
                         <span>Bed bugs</span>
                     </div>
                     <div class="outer">
-                        <img src="assets/img/service-imgs/NonFumiBedB.jpg" alt="">
+                        <img src="assets/img/pestwecover-imgs/img1.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -173,7 +187,7 @@ $pageid = "home"
                         <span>Termites</span>
                     </div>
                     <div class="outer">
-                        <img src="assets/img/service-imgs/NonFumiTerPre.jpg" alt="">
+                        <img src="assets/img/pestwecover-imgs/img6.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -183,7 +197,7 @@ $pageid = "home"
                         <span>Crawling <br> Insects</span>
                     </div>
                     <div class="outer">
-                        <img src="assets/img/service-imgs/NonFumiFly.jpg" alt="">
+                        <img src="assets/img/pestwecover-imgs/img7.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -210,7 +224,7 @@ $pageid = "home"
 <section class="service-section main-service-area  pb-70">
     <div class="container">
         <div class="section-head text-center">
-            <h2>Pestokil Provided <span>Services</span></h2>
+            <h2 style="line-height:1.5">We Provided <span>Specialized Services</span></h2>
             <!-- <p>Pestokill we follow a sustainable approach to managing pests by combining biological, physical and chemical tools in a way that minimizes economic, health and environmental risks</p> -->
         </div>
 
@@ -361,8 +375,8 @@ $pageid = "home"
             <div class="col-lg-5 offset-lg-6 offset-md-0">
                 <div class="why-choose-text">
                     <div class="section-head">
-                        <h2>Why Choose Us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h2 style="line-height:1.5">Our Pest Management Process</h2>
+                        
                     </div>
                 </div>
 
@@ -372,13 +386,13 @@ $pageid = "home"
                             <div class="card-header" id="headingOne">
                                 <h2 class="mb-0">
                                     <a href="#" class="btn" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Expert Cleaners
+                                        Assessment
                                     </a>
                                 </h2>
                             </div>
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                                Since numerous pest problems come from poor hygiene and structural scarcities, similar areas of enhancement are noted for being addresed by the client. Examinations are done previous to formulating the programme and periodically later.
                                 </div>
                             </div>
                         </div>
@@ -387,13 +401,13 @@ $pageid = "home"
                             <div class="card-header" id="headingTwo">
                                 <h2 class="mb-0">
                                     <a href="#" class="btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Latest Equipment
+                                        Identification
                                     </a>
                                 </h2>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                                Correct pest identification and in-depth knowledge of pest biology, habits, and food preferences is absolutely essential to apply restorative and preventative measures.
                                 </div>
                             </div>
                         </div>
@@ -402,13 +416,13 @@ $pageid = "home"
                             <div class="card-header" id="headingThree">
                                 <h2 class="mb-0">
                                     <a href="#" class="btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Clean & Fast Service
+                                        Monitoring and Prevention
                                     </a>
                                 </h2>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                                Regular monitoring helps in relating pest entry and harbourage points and sealing these locales to avoid farther circumstances. Action by client through structural changes lowers unborn pest operation costs. Control measure against pests includesnon-toxic traps and mechanical bias.
                                 </div>
                             </div>
                         </div>
@@ -417,14 +431,14 @@ $pageid = "home"
                             <div class="card-header" id="headingFour">
                                 <h2 class="mb-0">
                                     <a href="#" class="btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Budget Oriented
+                                        Pesticide Application
                                     </a>
                                 </h2>
                             </div>
 
                             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="card-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                                Fungicide operation is initiated on substantiation and active infestation above respectable threshold and othernon-chemical measures aren't suitable. Care is taken to reduce destruction of chemicals through localised operation and constraint procedures. Preventives are taken for operation and disposal of chemicals to insure mortal and environmental safety.
                                 </div>
                             </div>
                         </div>
@@ -450,7 +464,7 @@ $pageid = "home"
                 <div class="process-card">
                     <i class="icofont-touch"></i>
                     <h3>Choose Services</h3>
-                    <p>Lorem Ipsum is simply dummied text of the printing and typesetting industry.</p>
+                    <!-- <p>Lorem Ipsum is simply dummied text of the printing and typesetting industry.</p> -->
                     <img src="assets/img/process-pattern-2.png" alt="arrow">
                 </div>
             </div>
@@ -459,7 +473,7 @@ $pageid = "home"
                 <div class="process-card">
                     <i class="icofont-world"></i>
                     <h3>Contact Now</h3>
-                    <p>Lorem Ipsum is simply dummied text of the printing and typesetting industry.</p>
+                    <!-- <p>Lorem Ipsum is simply dummied text of the printing and typesetting industry.</p> -->
                     <img src="assets/img/process-pattern-2.png" alt="arrow">
                 </div>
             </div>
@@ -468,7 +482,7 @@ $pageid = "home"
                 <div class="process-card">
                     <i class="icofont-recycle-alt"></i>
                     <h3>Enjoy Cleaning</h3>
-                    <p>Lorem Ipsum is simply dummied text of the printing and typesetting industry.</p>
+                    <!-- <p>Lorem Ipsum is simply dummied text of the printing and typesetting industry.</p> -->
                 </div>
             </div>
         </div>

@@ -10,7 +10,7 @@
                                     <img src="assets/img/logo1.png" alt="logo">
                                 </a>
                             </div>
-                            <p style="margin-top:20px">Lorem ipsum dolor sit amet, tur adipiscing elit, sed do eiusmod tempor contratc.</p>
+                            <p style="margin-top:20px">Pestokil-India is a recognized Industry competitor in Bangalore providing high quality and reliable Pest Management Solutions.</p>
                             <!-- <div class="email">
                                 <form class="newsletter-form" data-bs-toggle="validator">
                                     <input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" required autocomplete="off">

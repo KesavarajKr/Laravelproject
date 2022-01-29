@@ -102,17 +102,21 @@
 
 .flip-box {
     background-color: transparent;
-    width: 270px;
-    height: 220px;
+    width: 420px;
+    height: 470px;
     border-radius: 10px;
     perspective: 1000px;
+    /* border:1px solid black; */
+    box-shadow: 0px 0px 31px 6px rgba(0,0,0,0.21);
+-webkit-box-shadow: 0px 0px 31px 6px rgba(0,0,0,0.21);
+-moz-box-shadow: 0px 0px 31px 6px rgba(0,0,0,0.21);
 }
 
 .flip-box-inner {
     position: relative;
     width: 100%;
     height: 100%;
-    text-align: center;
+    /* text-align: center; */
     transition: transform 0.8s;
     transform-style: preserve-3d;
     display: flex;
@@ -144,7 +148,8 @@
 }
 
 .flip-box-front .box-img {
-    width: 250px;
+    width:395px;
+    /* border:1px solid black; */
 }
 
 @media (max-width:576px) {
@@ -154,16 +159,31 @@
 }
 
 .flip-box-back {
-    background-color: #ffffff;
-    color: #000;
+    background-color: #a32e30;
+    
     transform: rotateY(180deg);
     border-radius: 10px;
     border: 1px solid #777;
     padding: 16px;
-    height: 260px;
+    height: 470px;
 }
-
-
+.flip-box-back p
+{
+    color:#fff !important;
+    font-size:20px;
+    padding:0px 25px;
+    text-align:left !important;
+}
+.flip-box-back h3
+{
+    font-size:25px !important;
+    text-align:left: !important;
+}
+.flip-box-back .heading
+{
+    font-size:30px;
+    text-align:left !important
+}
 /**** Why Us ***/
 
 .content {
@@ -189,8 +209,16 @@
 
 .content .para {
     padding: 40px 20px 40px 40px;
+    
 }
-
+.content .para p
+{
+    font-size:20px;
+}
+.footer-area::before
+{
+    position: relative !important;
+}
 .footer-area {
     padding-top: 60px !important;
 }
@@ -283,9 +311,9 @@
 .container-box .circle,
 .container-box2 .circle {
     position: relative;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
     display: inline-block;
     overflow: hidden;
     box-shadow: -1px 14px 12px -10px rgba(255, 255, 255, 0.3);
@@ -310,7 +338,7 @@
 .container-box2 .outer {
     position: absolute;
     background-color: #fff;
-    border-radius: 50%;
+    border-radius: 10px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -322,12 +350,12 @@
 .container-box .outer img,
 .container-box2 .outer img {
     position: absolute;
-    border-radius: 60%;
+    
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 50%;
-    height: 50%;
+    width: 85%;
+    height: 85%;
     transition: 0.8s;
 }
 
